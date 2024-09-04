@@ -73,7 +73,7 @@
         <div>
 
           <div class="bg-gray-900 p-4 rounded-lg shadow-inner">
-            <img src="https://gotolatam.com/images/fiorella.jpg" alt="">
+            <img src="https://picsum.photos/id/3/306/227" alt="">
             <a href="#form-dream-adventure" class="btn-primary lg:px-4 block text-center ">Contacta con nosotros</a>
 
           </div>

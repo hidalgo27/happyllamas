@@ -14,7 +14,7 @@
 
   <slot />
   <modal-menu></modal-menu>
-  <FooterInquireDetail></FooterInquireDetail>
+<!--  <FooterInquireDetail></FooterInquireDetail>-->
   <Footer></Footer>
 
 </template>

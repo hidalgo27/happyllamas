@@ -13,10 +13,10 @@
       <div class="grid md:grid-cols-2 items-center justify-center gap-24">
         <div class="">
           <div class="columns-2 gap-3 space-y-4 floa">
-            <img src="/images/home/operator1.png" alt="">
-            <img src="/images/home/operator2.png" alt="">
-            <img src="/images/home/operator3.png" alt="">
-            <img src="/images/home/operator4.png" alt="">
+            <img src="https://picsum.photos/306/427" alt="" class="mt-3 rounded-xl">
+            <img src="https://picsum.photos/306/250" alt="" class="rounded-xl">
+            <img src="https://picsum.photos/306/251" alt="" class="rounded-xl">
+            <img src="https://picsum.photos/306/428" alt="" class="rounded-xl">
           </div>
         </div>
 
@@ -60,15 +60,15 @@
     </div>
   </section>
 
-  <section class="bg-gray-100 py-12">
-    <carousel-team></carousel-team>
-  </section>
+<!--  <section class="bg-gray-100 py-12">-->
+<!--    <carousel-team></carousel-team>-->
+<!--  </section>-->
 
   <section>
     <div class="container grid md:grid-cols-12 py-12 gap-12 items-center">
       <div class="md:col-span-3">
         <h2 class="text-3xl font-bold">Social Media <br>& Reviews</h2>
-        <p class="my-6">At the Gotolatam family, we value the comments and feedback of all our travelers. Follow us on our social networks and digital platforms so you don't miss out on our latest news about LATAM destinations.</p>
+        <p class="my-6">At the HAPPYLLAMAS family, we value the comments and feedback of all our travelers. Follow us on our social networks and digital platforms so you don't miss out on our latest news about PERU destinations.</p>
       </div>
       <div class="md:col-span-9 gap-6 grid md:grid-cols-4">
         <article class="text-center px-6 py-12 border rounded-xl">
@@ -101,7 +101,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 mx-auto">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
           </svg>
-          <h3 class="my-6 text-3xl font-semibold">#gotoperu</h3>
+          <h3 class="my-6 text-3xl font-semibold">#happyllamas</h3>
           <hr class="my-6">
           <p>Tag us on Instagram</p>
         </article>
@@ -109,117 +109,7 @@
     </div>
   </section>
 
-  <section class="py-12 bg-gray-100">
-    <div class="container">
-      <h2 class="text-3xl font-bold text-center">Reviews and Testimonials</h2>
-      <div class="columns-3 gap-6 space-y-6 my-12 hidden md:block">
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial1.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial2.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial3.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial4.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial2.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial5.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-        <div class="relative rounded-2xl">
-          <div class="relative">
-            <img src="/images/testimonials/testimonial3.png" alt="" class="w-full object-center">
-            <div class="absolute inset-x-0 top-0 h-full pb-12 flex items-center">
-              <img src="/icons/pay.svg" alt="" class="mx-auto">
-            </div>
-          </div>
-          <div class="absolute inset-x-0 bottom-0 bg-gray-800 rounded-b-2xl px-6 pb-3 pt-2 text-white">
-            <img src="/icons/quotes.svg" alt="" class="-mt-9">
-            <h3 class="text-sm my-2">Zeeshan B. / Toronto - Canada</h3>
-            <p class="text-xs">…I would recommend GotoLatam 100%. You will not regret it!!!</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="md:hidden my-12">
-
-        <testimonials></testimonials>
-
-      </div>
-      <div class="flex  gap-2 items-center justify-center">
-        <p>Happy Guests are the Best Rewarc</p>
-        <img src="/images/logos/tripadvisor.png" alt="" class="w-32">
-        <img src="/images/logos/trustpilot.png" alt="" class="w-20">
-      </div>
-    </div>
-
-
-  </section>
 
 </template>
 

@@ -12,7 +12,11 @@
 
     <div class="relative">
       <div class="h-[75vh] relative overflow-hidden vimeo-wrapper">
-        <iframe src="https://player.vimeo.com/video/772468390?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" frameborder="0" allow="autoplay; fullscreen" class=""></iframe>
+<!--        <iframe src="https://player.vimeo.com/video/772468390?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" frameborder="0" allow="autoplay; fullscreen" class=""></iframe>-->
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+          <source src="/video/mixkit-going-down-a-curved-highway-through-a-mountain-range-41576-hd-ready.mp4" type="video/mp4" />
+          Tu navegador no soporta el video en HTML5.
+        </video>
       </div>
       <div class="absolute inset-x-0 bottom-0 text-center">
         <h1 class="text-white text-xl md:text-4xl drop-shadow-[0_3px_6px_rgba(0,0,0,0.7)] mb-24">{{packages.titulo}}</h1>
@@ -406,10 +410,10 @@
         <div class="bg-[#eef3d3] p-6 rounded-2xl sticky top-10 text-center">
 <!--          <img src="/images/home/operator1.png" alt="" class="mx-auto -mt-16 rounded-full h-24 w-24 object-cover  border border-primary">-->
           <div class="columns-2 gap-3 space-y-4 floa">
-            <img src="/images/home/operator1.jpg" alt="" class="mt-3 rounded-xl">
-            <img src="/images/home/operator2.jpg" alt="" class="rounded-xl">
-            <img src="/images/home/operator3.jpg" alt="" class="rounded-xl">
-            <img src="/images/home/operator4.jpg" alt="" class="rounded-xl">
+            <img src="https://picsum.photos/306/427" alt="" class="mt-3 rounded-xl">
+            <img src="https://picsum.photos/306/250" alt="" class="rounded-xl">
+            <img src="https://picsum.photos/306/251" alt="" class="rounded-xl">
+            <img src="https://picsum.photos/306/428" alt="" class="rounded-xl">
           </div>
           <div class="p-6 rounded-2xl bg-white my-4">
 <!--            <h4 class="text-center text-primary font-semibold">¡Hello, I'm Yoa!</h4>-->
