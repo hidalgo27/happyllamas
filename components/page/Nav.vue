@@ -5,11 +5,11 @@
   </div>
   <div class="">
     <nav class="gap-6 hidden md:flex">
-      <nuxt-link to="/destinations/countries" class="flex gap-2 items-center"> Destinos</nuxt-link>
-      <nuxt-link to="/latam-travel-packages" class="flex gap-2 items-center"> Paquetes en Perú</nuxt-link>
+      <nuxt-link to="/destinations/countries" class="flex gap-2 items-center"> Destinations</nuxt-link>
+      <nuxt-link to="/latam-travel-packages" class="flex gap-2 items-center"> Travel Packages</nuxt-link>
       <nuxt-link to="/#top-12" class="flex gap-2 items-center"> Top tours</nuxt-link>
-      <nuxt-link to="/reviews" class="flex gap-2 items-center"> Reseñas</nuxt-link>
-      <nuxt-link to="/about" class="flex gap-2 items-center"> Sobre nosotros</nuxt-link>
+      <nuxt-link to="/reviews" class="flex gap-2 items-center"> Reviews</nuxt-link>
+      <nuxt-link to="/about" class="flex gap-2 items-center"> About Us</nuxt-link>
     </nav>
   </div>
 

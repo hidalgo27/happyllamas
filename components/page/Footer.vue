@@ -10,7 +10,8 @@
         <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
           <img src="/images/logos/logo-happy-llamas.png" alt="" class="mx-auto filter invert brightness-0">
         </a>
-        <p class="mt-4 font-semibold text-secondary">CONTÁCTANOS: info@happyllamastravel.com</p>
+        <p class="mt-4  text-secondary">CONTÁCTANOS: info@happyllamastravel.com | happyllamastravel1@gmail.com</p>
+        <p class="mt-4 text-sm text-gray-400 font-light">Ventas: +51 938 359345 | Asesor de viajes: +51 964633136 | Emergencia : +51 918954513 | Reservas: +51  955158932</p>
       </div>
       <div class="grid grid-cols-2 gap-4 dark:text-gray-300 md:grid-cols-4 mb-24">
         <div>
@@ -59,6 +60,15 @@
             <li>
               <nuxt-link to="/about" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">About us</nuxt-link>
             </li>
+            <li>
+              <nuxt-link to="/politica-proteccion-datos" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Política de protección de datos</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/terminos-contrato" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Términos del contrato</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/esnna" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">El programa ESNNA y nuestro compromiso</nuxt-link>
+            </li>
 <!--            <li>-->
 <!--              <a href="#" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">sdsdsdsd</a>-->
 <!--            </li>-->
@@ -74,7 +84,8 @@
 
           <div class="bg-gray-900 p-4 rounded-lg shadow-inner">
             <img src="https://picsum.photos/id/3/306/227" alt="">
-            <a href="#form-dream-adventure" class="btn-primary lg:px-4 block text-center ">Contacta con nosotros</a>
+<!--            <a href="#form-dream-adventure" class="btn-primary lg:px-4 block text-center ">Contacta con nosotros</a>-->
+            <button type="button" class="btn-primary lg:px-4 block w-full text-center" @click="packageStore.showModalInquireGlobal = !packageStore.showModalInquireGlobal">Contact Us</button>
 
           </div>
         </div>
@@ -82,13 +93,13 @@
 
       <div class="flex flex-col justify-between pt-5 sm:flex-row">
         <p class="text-sm dark:text-gray-300">
-          <span class="font-semibold">OFICINA PRINCIPAL PERÚ:</span>  Avenida XX . Cusco , Cusco , Peru | RUC: 123434554756767
+          <span class="font-semibold">OFICINA PRINCIPAL PERÚ:</span>   Av. la Bombonera Nro. D-13. Cusco , Cusco , Peru | RUC: 20612233692 | HAPPY LLAMAS TRAVEL
         </p>
       </div>
 
       <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-500 sm:flex-row">
         <p class="text-sm dark:text-gray-300">
-          © Copyright 2024 HappyLlamasTravel. All rights reserved.
+          © Copyright 2024 HAPPY LLAMAS TRAVEL SAC. All rights reserved.
         </p>
 <!--                        <div class="flex items-center mt-4 space-x-4 sm:mt-0">-->
 <!--                            <a href="/" class="transition-colors duration-300 text-blue-100 hover:text-blue-400">-->
